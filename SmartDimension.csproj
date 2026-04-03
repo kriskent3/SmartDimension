@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU</Platforms>
+    <AssemblyName>SmartDimension</AssemblyName>
+    <RootNamespace>SmartDimension</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acdbmgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
